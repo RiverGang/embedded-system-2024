@@ -68,6 +68,13 @@ IoT 개발자 임베디드시스템 학습 리포지토리
 	- overflow와 underflow
 	
 	- 배열로 구현
-	- 연결리스트로 구현
+	- 연결리스트(구조체)로 구현
+
+- Queue(FIFO:선입선출) 자료구조
+	- rear: 입구
+	- front: 출구
 	
+	- front == rear -> overflow 상태
+	
+
 ## 7일차
