@@ -21,6 +21,7 @@ IoT 개발자 임베디드시스템 학습 리포지토리
 	- cd 폴더명 : 하위 디렉터리로 이동
 	- cd .. : 상위 디렉터리로 이동
 	- cp 원파일명 복제파일명 : 파일 복제
+	- mv 파일명 디렉토리명 : 파일을 디렉토리로 이동
 
 ## 3일차
 - C언어 기초
@@ -56,6 +57,7 @@ IoT 개발자 임베디드시스템 학습 리포지토리
 	- cp 원본파일명 복사파일명
 - 구조체를 필드로 가진 구조체 생성함수 구현
 
+
 ## 6일차
 - 동적할당(heap영역 메모리 할당) 예외처리
 	- if (newNode == NULL) : 할당받지 못할 때 return 될 값
@@ -78,3 +80,44 @@ IoT 개발자 임베디드시스템 학습 리포지토리
 	
 
 ## 7일차
+- 동적할당 Queue 구현
+	- enQueue()
+	- deQueue()
+	- printQueue()
+	
+- makeT dir : 실행파일 만들기(makefile)
+	- 실행파일 생성
+	- gcc -o 실행파일명 .c 파일명
+	
+	- 오브젝트파일 생성
+	- gcc -c .c 파일명
+	- .c 파일로 object 파일 생성
+	
+	```
+	exet: main.o inputf.o printf.o
+		gcc -o love main.c inputf.c printf.h
+ 
+	main.o: main.c
+    	gcc -c main.c
+ 
+	inputf.o: inputf.c
+		gcc -c inputf.c
+
+	printf.o: printf.h
+		gcc -c printf.h
+	
+	```
+	
+- 파일분할
+	- static : 전역변수 설정
+	- extern 함수() 
+	
+	- 헤더파일 : 파일명.h
+		```c
+		#ifndef _헤더파일명_
+		#define _헤더파일명_
+		
+		#endif
+		```
+	- main()과 function()
+		- #include "헤더파일명.h"

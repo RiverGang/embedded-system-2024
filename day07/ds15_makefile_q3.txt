@@ -1,0 +1,15 @@
+main: main_queue03.o function_queue03.o header_queue03.o
+   gcc -o testC main_queue03.c function_queue03.c header_queue03.h
+
+header_queue03.o: header_queue03.h
+   gcc -c header_queue03.h
+
+main_queue03.o: main_queue03.c
+   gcc -c function_queue03.c
+
+function_queue03.o: function_queue03.c
+    gcc -c function_queue03.c
+
+
+
+
