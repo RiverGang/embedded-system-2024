@@ -23,3 +23,4 @@ desc: queue 자료구조 이해
    printf("\n");
  }
 
+d
