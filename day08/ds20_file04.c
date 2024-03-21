@@ -1,6 +1,7 @@
  /*
  파일 이름 : 이름.txt, data: 정보
  복사할 파일 이름: 이름copy.txt
+ 표준 파일 입출력함수 이용
  */
 
  #include <stdio.h>
