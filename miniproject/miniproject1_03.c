@@ -45,7 +45,7 @@
  int login(char* inID, char* inPASS)
  {
    char ID[] = "201912186";
-   char PASS[] = "비밀번호486";
+   char PASS[] = "비밀번호486";d
 
    if(strcmp(ID, inID) == 0 && strcmp(PASS, inPASS) == 0) return 1;
    if(strcmp(ID, inID) != 0 && strcmp(PASS, inPASS) == 0) return 2; //아이디 오류
