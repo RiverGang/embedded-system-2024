@@ -1,3 +1,10 @@
+/*
+File: function_ver3.c
+
+Created: 24-03-26
+Author: 이성희
+*/
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
