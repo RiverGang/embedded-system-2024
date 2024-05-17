@@ -20,11 +20,14 @@ IoT 개발자 임베디드시스템 학습 리포지토리
 
 
 		- 회원가입 시 파일 생성
-			- ID파일명: ID입력값+"ID.txt" ex) 테스트ID.txt
-			- PASSWORD파일명: ID입력값+"PASS.txt" ex) 테스트PASS.txt
+			- ID파일명: ID입력값+"ID.txt" 
+				ex) 테스트ID.txt
+			
+			- PASSWORD파일명: ID입력값+"PASS.txt" 
+				ex) 테스트PASS.txt
 				- 비밀번호가 파일명에 노출되지 않도록 처리
 
-		- 올바르지 않는 정보는 로그인 불가능
+		- 올바르지 않은 정보 로그인 불가능
 		
 
 	- 기본 메뉴
