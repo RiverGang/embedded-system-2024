@@ -2,10 +2,14 @@
 IoT 개발자 임베디드시스템 학습 리포지토리
 
 ## 미니프로젝트
-- project1 : File 입출력
+- project1 : Product Manager(상품관리 시스템)
+	- C++
 
+- project2 : File 입출력
 
-- project2 : linkedList(도서 관리 시스템)
+- project3 : linkedList(도서 관리 시스템) ver2
+	- 리스트형태 자료구조 이용
+
 	- 로그인, 회원가입
 
 		![로그인/회원가입](https://raw.githubusercontent.com/RiverGang/embedded-system-2024/main/images/%EB%8F%84%EC%84%9C%EA%B4%80%EB%A6%AC%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%A8_01.png)
@@ -16,6 +20,10 @@ IoT 개발자 임베디드시스템 학습 리포지토리
 
 
 		- 회원가입 시 파일 생성
+			- ID파일명: ID입력값+"ID.txt" ex) 테스트ID.txt
+			- PASSWORD파일명: ID입력값+"PASS.txt" ex) 테스트PASS.txt
+				- 비밀번호가 파일명에 노출되지 않도록 처리
+
 		- 올바르지 않는 정보는 로그인 불가능
 		
 
@@ -58,8 +66,12 @@ IoT 개발자 임베디드시스템 학습 리포지토리
 	- 도서 삭제 (중간에 등록된 도서 삭제 가능)
 	
 	- 헤더/메인/함수 파일 분할
-	- 컴파일 파일 생성
+		- header_ver3.h
+		- main_ver3.h
+		- function_ver3.h
 
+	- 컴파일 파일 생성
+		- makefile.txt
 	
 
 ## 1일차
