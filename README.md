@@ -6,17 +6,49 @@ IoT 개발자 임베디드시스템 학습 리포지토리
 
 
 - project2 : linkedList(도서 관리 시스템)
-	- ver1
 	- 로그인, 회원가입
-	- 도서 등록(책번호, 제목, 저자, 출판사, 가격, 대출여부)
-	- 검색(제목, 저자, 출판사)
+
+		![로그인/회원가입](https://raw.githubusercontent.com/RiverGang/embedded-system-2024/main/images/%EB%8F%84%EC%84%9C%EA%B4%80%EB%A6%AC%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%A8_01.png)
+
+		![파일생성](https://raw.githubusercontent.com/RiverGang/embedded-system-2024/main/images/%EB%8F%84%EC%84%9C%EA%B4%80%EB%A6%AC%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%A8_10.png)
+
+		![로그인성공여부](https://raw.githubusercontent.com/RiverGang/embedded-system-2024/main/images/%EB%8F%84%EC%84%9C%EA%B4%80%EB%A6%AC%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%A8_02.png)
+
+
+		- 회원가입 시 파일 생성
+		- 올바르지 않는 정보는 로그인 불가능
+		
+	- 기본 메뉴
+
+		![기본 메뉴](https://raw.githubusercontent.com/RiverGang/embedded-system-2024/main/images/%EB%8F%84%EC%84%9C%EA%B4%80%EB%A6%AC%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%A8_03.png)
+
+		![메뉴 외 선택](https://raw.githubusercontent.com/RiverGang/embedded-system-2024/main/images/%EB%8F%84%EC%84%9C%EA%B4%80%EB%A6%AC%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%A8_04.png)
+
+	- 도서 등록(책번호, 제목, 저자, 출판사, 가격)
+
+		![도서등록](https://raw.githubusercontent.com/RiverGang/embedded-system-2024/main/images/%EB%8F%84%EC%84%9C%EA%B4%80%EB%A6%AC%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%A8_05.png)
+		
+	- 검색(키워드: 제목, 저자, 출판사)
+
+		![도서검색](https://raw.githubusercontent.com/RiverGang/embedded-system-2024/main/images/%EB%8F%84%EC%84%9C%EA%B4%80%EB%A6%AC%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%A8_06.png)
+
+		![옵션검색](https://raw.githubusercontent.com/RiverGang/embedded-system-2024/main/images/%EB%8F%84%EC%84%9C%EA%B4%80%EB%A6%AC%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%A8_07.png)
+
+		- 키워드 별 검색
+		- 대여 기능
+		
 	- 목록 출력
+
+		![목록출력](https://raw.githubusercontent.com/RiverGang/embedded-system-2024/main/images/%EB%8F%84%EC%84%9C%EA%B4%80%EB%A6%AC%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%A8_08.png)
+
 	- 도서 삭제 (중간에 등록된 도서 삭제 가능)
-	
-	- ver2
 	- 대여/반납
+		
+		![도서반납](https://raw.githubusercontent.com/RiverGang/embedded-system-2024/main/images/%EB%8F%84%EC%84%9C%EA%B4%80%EB%A6%AC%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%A8_09.png)
+
 	- 헤더/메인/함수 파일 분할
 	- 컴파일 파일 생성
+
 	
 
 ## 1일차
